@@ -6,7 +6,7 @@
 	<title>Google</title>
 </head>
 <body>
-	
+	<div class="wrapper"> 
 		<div class="top">
 			<div class="top_nav_buttons">
 				<div class="pic_links">
@@ -26,7 +26,7 @@
 			<div class="search_elements">
 				<div class="search_bar">
 					<input class="textbox" type="text">
-					<div class="voice_search"><a href="https://support.google.com/websearch/answer/2940021?p=ui_hotword_search&rd=2"><img class="mic" src="QW9LT1TRk1V7S2xYJADs=.gif"></a></div>
+					<div class="voice_search"><img src="QW9LT1TRk1V7S2xYJADs=.gif"></div>
 				</div>
 				<div class="buttons">
 					<input value="Google Search" aria-label="Google Search" name="google_search_button" type="submit">
@@ -46,6 +46,6 @@
 					<a class="rightlinks" href="https://www.google.com/preferences?hl=en">Settings</a>
 				</span>
 		</div>
-	
+	</div>
 </body>
 </html>

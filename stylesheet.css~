@@ -1,7 +1,3 @@
-body{
-	margin: 0; 
-}
-
 .top{
 	position: top;
 	height: 30px; width: 100%;
@@ -12,49 +8,35 @@ a {
 	color:#404040;
 	font-family: arial;
 	font-size: 13px;
-
 }
-
-a:hover{
-	text-decoration: underline;
-}
-
 .g{
 	color:#404040;
 	text-decoration:none;
 	font-family: arial;
 	font-size: 13px;
 }
-.top_nav_buttons{
-	height: 32px;
-	width: 100%;
-	top: 15px; 
-	position: absolute;
-}
-
 .pic_links{
 	float: right;
 	height: 30px;
-	width: 135px;
+	width: 150px;
 }
 
 .pic_links > div {
 	display: inline-block;
 	height: 32px;
 	width: 32px;
-	padding-right: 5px;
 }
 
 .text_links{
 	height: 30px;
-	width: 166px;
+	width: 170px;
 	float: right;
 	
 }
 
 .text_links > div{
 	display: inline-block;
-	margin: 8px;
+	margin:5px;
 	
 }
 .profile_pic > img{
@@ -97,25 +79,22 @@ margin-top: 10px;
 .textbox{
 	height:19px ; width: 525px;
 	display: block;
-
 }
 
 .voice_search{
 	position: absolute;
-	height:19px ; width: 14px;
+	height:19px ; width: 525px;
 	top: 0;
 	margin-right: auto;
 	margin-left: auto;
-	right:2px;
-	padding-top: 2px;
 }
 
-.mic{
+.voice_search > img{
 	height: 19px;
 	width: 14px;
 	float: right;
+	padding-top: 2px;
 	display: block;
-	opacity: 0.6;
 }
 
 .buttons{
@@ -124,7 +103,6 @@ margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-
 }
 
 .buttons input{
@@ -136,9 +114,7 @@ margin-top: 10px;
   	padding: 0 8px;
   	border-radius: 2px;
   	margin: 11px 8px;
-  	border: 1px solid #dcdcdc;;
-  	white-space: nowrap;
-  	color: #444;
+  	border: 1px solid;
 }
 
 .bottom{
@@ -146,30 +122,26 @@ margin-top: 10px;
 	width: 100%;
 	height: 40px;
 	position: fixed;
-	background-color: #f2f2f2;
-
+	background-color: #e4e4e4; 
 }
 
 .bottomleft{
 	float: left;
-	
+	margin-left:30px;
 }
 
 .bottomright{
 	float: right;
-	
+	margin-right:30px; 
 }
 
 .leftlinks{
 	padding-top:11px;
 	padding-left: 27px;
 	display: inline-block;
-	color: #777;
-}
+	
 
 .rightlinks{
 	padding-top:11px;		
 	display: inline-block;
 	padding-right: 27px;
-	color: #777;
-}
